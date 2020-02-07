@@ -1,0 +1,15 @@
+@font-face {
+	font-family: PlayfairDisplay;
+	src: url(./resources/fonts/playfair_display/PlayfairDisplay-Black.ttf);
+	font-style: normal;
+	font-weight: 900;
+	color: #000000;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url(./resources/fonts/raleway/Raleway-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}

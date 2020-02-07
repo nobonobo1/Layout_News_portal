@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	border: 1px solid black;
+}
+
+body {
+	font-family: Raleway;
+
+	width: 100%;
+	height: 2792px;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: PlayfairDisplay;}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	line-height: 37px;
+	letter-spacing: 1px;
+}
+
+h3 {
+
+}
+
+a {text-decoration: none;}
+
+.centered {
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 740px;
+    margin-top: 38px;
+
+	background: #FFFFFF;
+}
+
+nav {
+	/*width: 100%;*/
+	/*text-align: center;*/
+}
+
+nav > ul {
+	list-style: none;
+
+	display: flex;
+	justify-content: center;
+
+	margin: 0px auto;
+	padding-left: 0px;
+}
+
+nav > ul > li {
+	padding: 0 25px;
+	/*display: inline;*/
+
+	/*text-align: center;*/
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #000000;
+}
+
+.content {
+	height: 1719px;
+}
+
+main {
+
+}
+
+aside {
+	float: right;
+	width: 250px;
+	position: relative;
+}
+
+
+
+footer {
+	width: 100%;
+	height: 195px;
+	background: #F7F7F7;
+}
+
+.separator {
+	border-top: 1px solid #B3B3B3;
+}
+
+.copyright {
+	font-size: 10px;
+	line-height: 15px;
+	text-align: center;
+
+	color: #000000;
+
+	opacity: 0.2;
+}
+
