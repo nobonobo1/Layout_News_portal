@@ -1,8 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-
-	border: 1px solid black;
 }
 
 body {
@@ -15,6 +13,8 @@ body {
 h1, h2, h3, h4, h5, h6 {font-family: PlayfairDisplay;}
 
 h1 {
+	height: 47px;
+
 	text-align: center;
 	font-size: 35px;
 	line-height: 47px;
@@ -47,9 +47,21 @@ header {
 	background: #FFFFFF;
 }
 
+/*helping css*/
+header, header > * {
+	border: 1px solid black;
+}
+
+#header-h-wrap {
+	margin-top: 22px;
+}
+
+#top-nav {
+	margin-top: 46px;
+}
+
 nav {
-	/*width: 100%;*/
-	/*text-align: center;*/
+	height: 18px;
 }
 
 nav > ul {
@@ -64,12 +76,14 @@ nav > ul {
 
 nav > ul > li {
 	padding: 0 25px;
-	/*display: inline;*/
 
-	/*text-align: center;*/
 	font-size: 18px;
 	letter-spacing: 2px;
 	color: #000000;
+}
+
+.top-slider {
+	margin-top: 55px;
 }
 
 .content {
@@ -83,7 +97,6 @@ main {
 aside {
 	float: right;
 	width: 250px;
-	position: relative;
 }
 
 
