@@ -22,3 +22,11 @@
 	color: #000000;
 }
 
+@font-face {
+	font-family: RalewayBold;
+	src: url(./resources/fonts/raleway/Raleway-Bold.ttf);
+	font-style: normal;
+	font-weight: 300;
+	color: #000000;
+}
+

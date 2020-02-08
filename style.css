@@ -7,11 +7,12 @@ body {
 	font-family: Raleway;
 
 	width: 100%;
-	height: 2792px;
+	/*height: 2792px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {font-family: PlayfairDisplay;}
 
+/*header*/
 h1 {
 	height: 47px;
 
@@ -20,16 +21,47 @@ h1 {
 	line-height: 47px;
 	letter-spacing: 1px;
 }
-
+/*aside*/
 h2 {
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/*footer*/
+h3 {
+	height: 37px;
+
 	text-align: center;
 	font-size: 28px;
 	line-height: 37px;
 	letter-spacing: 1px;
 }
+/*reviews*/
+h4 {
+	height: 31px;
 
-h3 {
+	font-size: 23px;
+	line-height: 31px;
+}
+/*news1*/
+h5 {
+	height: 27px;
 
+	font-size: 20px;
+	line-height: 27px;
+}
+/*news2*/
+h6 {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.image-description {
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 a {text-decoration: none;}
@@ -190,32 +222,91 @@ nav > ul > li {
 	margin: auto;
 }
 
-.slider-item-description {
+.slider-description {
 	margin: 55px auto 0px;
 
 	width: 456px;
-
-	text-align: center;
-	font-size: 14px;
-	line-height: 21px;
 }
+
 
 
 /*helping css*/
-.content, .content > * {border: 1px solid black;}
+/*.news-content * {border: 1px solid black;}*/
 
-.content {height: 1719px;}
+.content {
+	width: 1170px;
+	padding: 3px 135px 0px;
+}
 
 main {
+	display: inline-block;
+	width: 769px;
+}
 
+.content-header {
+	height: 20px;
+
+	font-family: RalewayBold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.news-content {
+	margin-top: 15px;
+	height: 335px;
+}
+
+.big-image {
+	display: inline-block;
+	overflow: hidden;
+
+	width: 470px;
+	height: 334px;
+
+	background-image: url(resources/images/1344287851_w640_h640_33_107.png);
+}
+
+.small-images {
+	display: inline-block;
+	overflow: hidden;
+
+	margin-left: 28px;
+	width: 271px;
+	height: 334px;
+
+/*	flex-direction: column;
+	justify-content: space-between;*/
+}
+
+.small-image {
+	display: inline-block;
+	width: 127px;
+	height: 91px;
+
+	/*rewrite in js*/
+	background-image: url(resources/images/3800.png);
+}
+
+.small-image-description-wrap {
+	display: inline-block;
+
+	margin-left: 12px;
+	width: 132px;
+}
+
+.small-image-description-text {
+	font-size: 10px;
+	line-height: 15px;
 }
 
 aside {
+	display: inline-block;
 	float: right;
-	width: 250px;
+
+	width: 370px;
 }
-
-
 
 footer {
 	padding-top: 26px;
