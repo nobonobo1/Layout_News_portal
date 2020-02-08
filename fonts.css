@@ -13,3 +13,12 @@
 	font-weight: normal;
 	color: #000000;
 }
+
+@font-face {
+	font-family: RalewayLight;
+	src: url(./resources/fonts/raleway/Raleway-Light.ttf);
+	font-style: normal;
+	font-weight: 300;
+	color: #000000;
+}
+
