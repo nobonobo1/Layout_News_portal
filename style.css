@@ -47,9 +47,6 @@ header {
 	background: #FFFFFF;
 }
 
-/*helping css*/
-/*header, header > * {border: 1px solid black;}*/
-
 #header-h-wrap {margin-top: 22px;}
 
 #top-nav {margin-top: 46px;}
@@ -70,7 +67,7 @@ nav > ul {
 nav > ul > li {
 	padding: 0 25px;
 
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 2px;
 	color: #000000;
@@ -145,9 +142,7 @@ nav > ul > li {
 	line-height: 42px;
 }
 
-.nav-prev-text {
-	margin: auto;
-}
+.nav-prev-text {margin: auto;}
 
 .nav-next-text {margin: auto;}
 
@@ -161,10 +156,6 @@ nav > ul > li {
 
 	border-bottom: 1px solid #FFFFFF;
 }
-
-/*.nav-prev-line {margin: 10px;}
-
-.nav-next-line {margin-right: 10px;}*/
 
 .nav-prev-arrow, .nav-next-arrow{
 	display: inline-block;
@@ -185,6 +176,7 @@ nav > ul > li {
 
 .nav-separator {
 	display: inline-block;
+
 	position: relative;
 	margin: 0px 15px;
 	width: 0px;
@@ -208,6 +200,10 @@ nav > ul > li {
 	line-height: 21px;
 }
 
+
+/*helping css*/
+.content, .content > * {border: 1px solid black;}
+
 .content {height: 1719px;}
 
 main {
@@ -222,17 +218,28 @@ aside {
 
 
 footer {
+	padding-top: 26px;
 	width: 100%;
-	height: 195px;
+	height: 169px;
 	background: #F7F7F7;
 }
 
-.separator {border-top: 1px solid #B3B3B3;}
+#bottom-nav {margin-top: 32px;}
+
+.separator {
+	margin: 46px auto 0px;
+	width: 1170px;
+
+	border-top: 1px solid #B3B3B3;
+}
 
 .copyright {
+	margin: 8px auto 0px;
+	width: 1170px;
+
 	font-size: 10px;
 	line-height: 15px;
-	text-align: center;
+	text-align: right;
 
 	color: #000000;
 
