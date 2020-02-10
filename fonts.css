@@ -22,3 +22,36 @@
 	color: #000000;
 }
 
+@font-face {
+	font-family: RalewayMedium;
+	src: url(./resources/fonts/raleway/Raleway-Medium.ttf);
+	font-style: normal;
+	font-weight: 500;
+	color: #000000;
+}
+
+@font-face {
+	font-family: RalewaySemiBold;
+	src: url(./resources/fonts/raleway/Raleway-SemiBold.ttf);
+	font-style: normal;
+	font-weight: 600;
+	color: #000000;
+}
+
+
+@font-face {
+	font-family: RalewayBold;
+	src: url(./resources/fonts/raleway/Raleway-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+
+@font-face {
+	font-family: ProximaNova;
+	src: url(./resources/fonts/proxima_nova/ProximaNova-Regular.ttf);
+	font-style: normal;
+	font-weight: 300;
+	color: #000000;
+}
+

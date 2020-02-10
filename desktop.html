@@ -5,7 +5,6 @@
 	<title>Новости культуры</title>
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link rel="stylesheet" href="fonts.css" type="text/css"/>
-	<!-- <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script> -->
 	<script src="resources/jquery/jquery-3.4.1.js"></script>
 	<script src="main.js"></script>
 </head>
@@ -14,103 +13,261 @@
 		<div id="header-h-wrap">
 			<h1>Новости культуры</h1>
 		</div>
-		<nav id="top-nav">
-			<ul>
-				<li>новости</li>
-				<li>обзоры</li>
-				<li>музыка</li>
-				<li>архитектура</li>
-				<li>кино</li>
-				<li>театр</li>
-				<li>литература</li>
-				<li>религия</li>
-				<li>живопись</li>
-			</ul>
-		</nav>
-		<div class="top-slider ">
+		<nav id="top-nav"></nav>
+		<div class="top-slider">
+			<img class="slider-item-image" src="resources/images/Hotel-11.png" alt="Underwater hotel">
 			<div class="slider-item-new">новое</div>
-			<div class="slider-item-name">подводный отель</div>
+			<div class="slider-item-title">подводный отель</div>
 			<div class="slider-navigation">
-				<div class="nav-prev">
-					<div class="nav-prev-text">Предыдущая</div>					<div class="nav-prev-line">
+				<a href="#" class="nav-prev">
+					<div class="nav-prev-text">Предыдущая</div><div class="nav-prev-line">
 					</div><div class="nav-prev-arrow">
 						<img src="resources/svg/Rectangle 8.1.svg" alt="arrow prev">
 					</div>
-				</div><div class="nav-separator">
+				</a><div class="nav-separator">
 					<img src="resources/svg/Vector 5.1.svg" alt="separator">
-				</div><div class="nav-next">
+				</div><a href="#" class="nav-next">
 					<div class="nav-next-arrow">
 						<img src="resources/svg/Rectangle 8.1.svg" alt="arrow next">
 					</div><div class="nav-next-line">
 					</div><div class="nav-next-text">Следующая
 					</div>
-				</div>
+				</a>
 			</div>
-			<div class="slider-item-description">Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</div>
+			<div class="slider-description image-description">Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</div>
 		</div>
 	</header>
-	<div class="content centered">
+	<div class="centered content">
 		<main>
-			<div class="news block">
-				<div class="content-header">
-					<h3>Новости</h3>
-				</div>
-				<div class="big-image-wrapper">
-				
-				</div>
-				<div class="smaller-images-block">
-					<div class="smaller-image-wrapper">
-					
+			<div class="news-block">
+				<div class="content-header">Новости</div>
+				<div class="news-content">
+					<div class="big-image">
+						<img src="resources/images/1344287851_w640_h640_33_107.png" alt="birds">
+						<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+						<div class="big-image-description-wrap">
+							<h5 class="big-image-description-header">Новости культуры России и всего мира</h5>
+							<span class="image-description">В минувшие выходные в Москве на фестивале «Оберег» вручили первую премию Russian World Music Awards</span>
+						</div>
+					</div><div class="small-images">
+						<div class="small-image-item">
+							<div class="small-image-wrap">
+								<img src="resources/images/3800.png">
+								<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							</div><div class="small-image-description-wrap">
+								<h6 class="small-image-description-header">Открытие нового памятника Евгению Леонову</h6>
+								<div class="small-image-description-text">10 сентября в 15:00 был открыт памятник писателю</div>
+							</div>
+						</div><div class="small-image-item">
+							<div class="small-image-wrap">
+								<img src="resources/images/bos_SES_561.png">
+								<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							</div><div class="small-image-description-wrap">
+								<h6 class="small-image-description-header">Беседы с писателями</h6>
+								<div class="small-image-description-text">Русские писатели говорят о важности искусства</div>
+							</div>
+						</div><div class="small-image-item">
+							<div class="small-image-wrap">
+								<img src="resources/images/Patrick_s_Day.png">
+								<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							</div><div class="small-image-description-wrap">
+								<h6 class="small-image-description-header">День и ночь св. Патрика: встреча старых друзей</h6>
+								<div class="small-image-description-text">Не Джойсом единым живет Ирландия!</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="reviews block">
-				<div class="content-header">
-					<h3>Обзоры</h3>
-				</div>
-				<div class="reviews-item">
-					&nbsp;
+			<div class="reviews-block">
+				<div class="content-header">Обзоры</div>
+				<div class="reviews-content">
+					<div class="reviews-item">
+						<div class="medium-image-wrap">
+							<img class="medium-image" src="resources/images/288386.png" alt="monparnas">
+							<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							<div class="watched-and-comment">
+								<div class="counter-wrap">
+									<img class="watched-image" src="resources/svg/Vector.svg" alt="eye">
+									<span class="watched-counter">37</span>
+								</div>
+								<div class="counter-wrap">
+									<img class="comment-image" src="resources/svg/Union.svg" alt="comment">
+									<span class="comment-counter">2</span>
+								</div>
+							</div>
+						</div>
+						<div class="medium-image-description-wrap">
+							<h4 class="medium-image-description-header">«Шальные годы» Монпарнаса</h4>
+							<span class="image-description">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</span>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="medium-image-wrap">
+							<img class="medium-image" src="resources/images/Снимок экрана 2018-10-24 в 14.06.png" alt="anatomy">
+							<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							<div class="watched-and-comment">
+								<div class="counter-wrap">
+									<img class="watched-image" src="resources/svg/Vector.svg" alt="eye">
+									<span class="watched-counter">37</span>
+								</div>
+								<div class="counter-wrap">
+									<img class="comment-image" src="resources/svg/Union.svg" alt="comment">
+									<span class="comment-counter">2</span>
+								</div>
+							</div>
+						</div>
+						<div class="medium-image-description-wrap">
+							<h4 class="medium-image-description-header">Анатомия за 30 секунд</h4>
+							<span class="image-description">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно-популярной литературе заметно вырос</span>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="medium-image-wrap">
+							<img class="medium-image" src="resources/images/13052221.png" alt="balet">
+							<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							<div class="watched-and-comment">
+								<div class="counter-wrap">
+									<img class="watched-image" src="resources/svg/Vector.svg" alt="eye">
+									<span class="watched-counter">37</span>
+								</div>
+								<div class="counter-wrap">
+									<img class="comment-image" src="resources/svg/Union.svg" alt="comment">
+									<span class="comment-counter">2</span>
+								</div>
+							</div>							
+						</div>
+						<div class="medium-image-description-wrap">
+							<h4 class="medium-image-description-header">Русские балетные сезоны</h4>
+							<span class="image-description">В Новом Иерусалиме стартовал необычный культурно-развлекательный спектакль, который покажут в новом театре</span>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="medium-image-wrap">
+							<img class="medium-image" src="resources/images/208d7a1afa07a8352942b8f211e29b23.png" alt="spherical">
+							<img class="bookmark" src="resources/svg/Vector 2.5.svg" alt="bookmark">
+							<div class="watched-and-comment">
+								<div class="counter-wrap">
+									<img class="watched-image" src="resources/svg/Vector.svg" alt="eye">
+									<span class="watched-counter">37</span>
+								</div>
+								<div class="counter-wrap">
+									<img class="comment-image" src="resources/svg/Union.svg" alt="comment">
+									<span class="comment-counter">2</span>
+								</div>
+							</div>							
+						</div>
+						<div class="medium-image-description-wrap">
+							<h4 class="medium-image-description-header">Сферические чудаки</h4>
+							<span class="image-description">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»</span>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="pages block">
-				&nbsp;
+			<!-- доделать и сделать ссылки ко всем элементам -->
+			<div class="pagination">
+				<a class="page-prev" href="#">
+					<img src="resources/svg/Rectangle 8.svg" alt="page prev">
+				</a>
+				<div class="page-separator">
+					<img src="resources/svg/Vector 5.svg" alt="separator">
+				</div>
+				<div class="pages-wrap"></div>
+				<div class="page-separator">
+					<img src="resources/svg/Vector 5.svg" alt="separator">
+				</div>
+				<a class="page-next" href="#">
+					<img src="resources/svg/Rectangle 8.svg" alt="page prev">
+				</a>
 			</div>
-			<div class="bottom-content-ad block">
-				&nbsp;
+			<div class="bottom-ad">
+				<img src="resources/images/david-hofmann-588877-unsplash.png" alt="balet ad">
+				<span class="bottom-ad-title">Ох, уж этот балет</span>
+				<a href='#'><div id="bottom-ad-button" class="ad-button">
+					<span class="ad-button-text">Смотреть</span>
+					<img src="resources/svg/Shape.svg" alt="arrow">
+				</div></a>
 			</div>
 		</main>
 		<aside>
-			<div class="right-ad block">
-				&nbsp;
+			<div class="aside-ad">
+				<img src="resources/images/drew-colins-1114440-unsplash.png" alt="balet ad">
+				<h2 class="aside-ad-title">Воздушные шары</h2>
+				<a href='#'><div class="ad-button aside-ad-button">
+					<span class="ad-button-text">Смотреть</span>
+					<img src="resources/svg/Shape.svg" alt="arrow">
+				</div></a>
 			</div>
-			<div class="right-ad block">
-				&nbsp;
+			<div class="aside-ad">
+				<img src="resources/images/jeremy-bishop-1114290-unsplash.png" alt="balet ad">
+				<h2 class="aside-ad-title">Необычная фотосессия</h2>
+				<a href='#'><div class="ad-button aside-ad-button">
+					<span class="ad-button-text">Смотреть</span>
+					<img src="resources/svg/Shape.svg" alt="arrow">
+				</div></a>
 			</div>
-			<div class="right-ad block">
-				&nbsp;
+			<div class="aside-ad">
+				<img src="resources/images/bogdan-pasca-1114196-unsplash.png" alt="balet ad">
+				<h2 class="aside-ad-title">Выставка птиц</h2>
+				<a href='#'><div class="ad-button aside-ad-button">
+					<span class="ad-button-text">Смотреть</span>
+					<img src="resources/svg/Shape.svg" alt="arrow">
+				</div></a>
 			</div>
 		</aside>
 		<div class="bottom-slider">
-			&nbsp;
+			<div class="slide-item">
+				<div class="slide-image-wrap">
+					<img src="resources/images/floris-jan-roelof-huiskamp-1114976-unsplash.png" alt="be in time">
+				</div>
+				<div class="slide-title">Как все успевать</div>
+				<a href='#'><div class="slide-button">
+					<span class="slide-button-text">Смотреть</span>
+				</div></a>
+			</div>
+			<div class="slide-item">
+				<div class="slide-image-wrap">
+					<img src="resources/images/drew-colins-1114447-unsplash.png" alt="canyons">
+				</div>
+				<div class="slide-title">Красивые каньоны</div>
+				<a href='#'><div class="slide-button">
+					<span class="slide-button-text">Смотреть</span>
+				</div></a>
+			</div>
+			<div class="slide-item">
+				<div class="slide-image-wrap">
+					<img src="resources/images/lasse-moller-1115041-unsplash.png" alt="gyms">
+				</div>
+				<div class="slide-title">Спортзалы</div>
+				<a href='#'><div class="slide-button">
+					<span class="slide-button-text">Смотреть</span>
+				</div></a>
+			</div>
+			<div class="slide-item">
+				<div class="slide-image-wrap">
+					<img src="resources/images/bo-zheng-1114278-unsplash.png" alt="airplanes">
+				</div>
+				<div class="slide-title">Шоу самолётов</div>
+				<a href='#'><div class="slide-button">
+					<span class="slide-button-text">Смотреть</span>
+				</div></a>
+			</div>
+			<div id="slider-left-arrow-wrap" class="slider-arrow-wrap">
+				<a href="#">
+					<img class="slider-left-arrow" src="resources/svg/Group 21.svg" alt="left">
+				</a>
+			</div>
+			<div id="slider-right-arrow-wrap" class="slider-arrow-wrap">
+				<a href="#">
+					<img class="slider-right-arrow" src="resources/svg/Group 21.svg" alt="right">
+				</a>
+			</div>
 		</div>
 	</div>
-	<footer>
+	<footer class="centered">
 		<div id="footer-h-wrap">
-			<h2>Новости культуры</h2>
+			<h3>Новости культуры</h3>
 		</div>
-		<nav id="bottom-nav">
-			<ul>
-				<li>новости</li>
-				<li>обзоры</li>
-				<li>музыка</li>
-				<li>архитектура</li>
-				<li>кино</li>
-				<li>театр</li>
-				<li>литература</li>
-				<li>религия</li>
-				<li>живопись</li>
-			</ul>
-		</nav>
+		<nav id="bottom-nav"></nav>
 		<div class="separator"></div>
 		<div class="copyright">
 			© 2018 Новости культуры. Все права защищены.
