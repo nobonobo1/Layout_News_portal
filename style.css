@@ -91,18 +91,22 @@ a {
 
 /* ****** */
 /*        */
-/* header */
+/* Header */
 /*        */
 /* ****** */
 
 header {
 	height: 740px;
-    margin-top: 38px;
+  margin-top: 38px;
 
 	background: #FFFFFF;
 }
 
+/* Заголовок */
+
 #header-h-wrap {margin-top: 22px;}
+
+/* Навигация сайта */
 
 #top-nav {margin-top: 46px;}
 
@@ -127,6 +131,8 @@ nav > ul > li {
 	letter-spacing: 2px;
 	color: #000000;
 }
+
+/* Слайдер */
 
 .top-slider {
 	position: relative;
@@ -290,10 +296,14 @@ nav > ul > li {
 	padding: 3px 135px 0px;
 }
 
+/* Основной блок */
+
 main {
 	display: inline-block;
 	width: 769px;
 }
+
+/* Общий стиль заголовков контента */
 
 .content-header {
 	height: 20px;
@@ -304,6 +314,8 @@ main {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
+
+/* Блок новостей */
 
 .news-content {
 	margin-top: 15px;
@@ -403,6 +415,8 @@ main {
 	line-height: 15px;
 }
 
+/* Блок обзоров */
+
 .reviews-block {margin-top: 75px;}
 
 .reviews-content {
@@ -462,6 +476,8 @@ main {
 	color: #FFFFFF;
 }
 
+/* Пагинация */
+
 .pagination {
 	margin: 0px auto;
 	width: max-content;
@@ -520,6 +536,8 @@ main {
 	vertical-align: middle;
 }
 
+/* Нижняя реклама */
+
 .bottom-ad {
 	position: relative;
 	margin-top: 88px;
@@ -577,6 +595,12 @@ main {
 	color: #FFFFFF;
 }
 
+/* ***** */
+/*       */
+/* Aside */
+/*       */
+/* ***** */
+
 aside {
 	display: inline-flex;
 	float: right;
@@ -587,6 +611,8 @@ aside {
 	flex-wrap: wrap;
  	justify-content: space-between;
 }
+
+/* Боковая реклама */
 
 .aside-ad {
 	position: relative;
@@ -614,6 +640,8 @@ aside {
 	top: 392px;
 	left: 100px;
 }
+
+/* Нижний слайдер */
 
 .bottom-slider {
 	display: flex;
@@ -725,6 +753,12 @@ aside {
 	right: -44px;
 	transform: rotate(180deg);
 }
+
+/* ****** */
+/*        */
+/* Footer */
+/*        */
+/* ****** */
 
 footer {
 	margin-top: 97px;
